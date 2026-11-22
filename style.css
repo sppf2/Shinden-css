@@ -1,0 +1,26 @@
+CSS
+body {
+    background-color: #070b14 !important;
+    background-image: url('https://replicate.delivery/xpbkg/7Nf5P5v1f9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K009RB/output_bg.png') !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    color: #cbd5e1 !important;
+}
+
+.l-header, header, nav {
+    background: rgba(5, 8, 17, 0.92) !important;
+    border-bottom: 1px solid #1e3a5f !important;
+}
+
+.list-header, .banner-container, #header-banner {
+    background-image: url('https://replicate.delivery/xpbkg/f3U6Ote19xZ6P5v1f9K9K9K9K9K9K9K9K9K9K9K9K9K908RA/output.png') !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    height: 420px !important;
+}
+
+.list-menu, .sidebar, .list-content, .table-container, .box {
+    background: rgba(9, 14, 28, 0.85) !important;
+    border: 1px solid #2563eb !important;
+}
