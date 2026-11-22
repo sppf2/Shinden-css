@@ -24,7 +24,7 @@ body {
 .list-header, .banner-container, #header-banner {
     background-image: url('https://raw.githubusercontent.com/sppf2/Shinden-css/main/banner.jpg') !important;
     background-size: cover !important;
-    background-position: center top !important;
+    background-position: center 20% !important;
     height: 420px !important;
     border-bottom: 2px solid #2563eb !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(56, 189, 248, 0.3) !important;
