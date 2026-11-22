@@ -1,24 +1,81 @@
 body {
     background-color: #070b14 !important;
-    background-image: url('https://replicate.delivery/xpbkg/7Nf5P5v1f9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K9K009RB/output_bg.png') !important;
+    background-image: url('https://raw.githubusercontent.com/sppf2/Shinden-css/main/bg.jpg') !important;
     background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;
     color: #cbd5e1 !important;
+    font-family: 'Segoe UI', Roboto, sans-serif !important;
 }
 
 .l-header, header, nav {
     background: rgba(5, 8, 17, 0.92) !important;
     border-bottom: 1px solid #1e3a5f !important;
+    box-shadow: 0 4px 20px rgba(0, 168, 255, 0.15) !important;
+}
+
+.l-header .active, nav a.active {
+    background: linear-gradient(180deg, rgba(0, 168, 255, 0.25) 0%, rgba(0, 168, 255, 0.05) 100%) !important;
+    border-bottom: 3px solid #38bdf8 !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 8px #38bdf8 !important;
 }
 
 .list-header, .banner-container, #header-banner {
-    background-image: url('https://replicate.delivery/xpbkg/f3U6Ote19xZ6P5v1f9K9K9K9K9K9K9K9K9K9K9K9K9K908RA/output.png') !important;
+    background-image: url('https://raw.githubusercontent.com/sppf2/Shinden-css/main/banner.jpg') !important;
     background-size: cover !important;
     background-position: center top !important;
     height: 420px !important;
+    border-bottom: 2px solid #2563eb !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(56, 189, 248, 0.3) !important;
 }
 
 .list-menu, .sidebar, .list-content, .table-container, .box {
     background: rgba(9, 14, 28, 0.85) !important;
     border: 1px solid #2563eb !important;
+    border-radius: 6px !important;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.25), inset 0 0 20px rgba(14, 165, 233, 0.1) !important;
+    backdrop-filter: blur(6px) !important;
+}
+
+input[type="text"], .search-input {
+    background: rgba(6, 10, 20, 0.9) !important;
+    border: 1px solid #1e40af !important;
+    color: #e2e8f0 !important;
+    border-radius: 4px !important;
+}
+
+input[type="text"]:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+}
+
+h1, h2, .section-title {
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.8) !important;
+}
+
+.sidebar a, .list-menu li a {
+    color: #94a3b8 !important;
+    transition: all 0.2s ease !important;
+}
+
+.sidebar a:hover, .list-menu li.active a {
+    color: #ffffff !important;
+    background: rgba(56, 189, 248, 0.15) !important;
+    text-shadow: 0 0 8px #38bdf8 !important;
+    border-left: 3px solid #38bdf8 !important;
+}
+
+tr, .anime-item, .list-item {
+    background: rgba(12, 19, 38, 0.75) !important;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.3) !important;
+    transition: 0.2s !important;
+}
+
+tr:hover, .anime-item:hover, .list-item:hover {
+    background: rgba(30, 58, 138, 0.4) !important;
+    box-shadow: inset 0 0 12px rgba(56, 189, 248, 0.3) !important;
+}
